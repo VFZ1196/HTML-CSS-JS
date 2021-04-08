@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Restaurants</title>
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light border">
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <img src="image/1.png" id="pic">
+                <!-- <h4>Add Image here</h4> -->
+            </div>
+            <ul class="lisst-unstyled components">
+                <li class="active">
+                <li>
+                    <a href="HomePage.html"><i class="fa fa-home"></i>&emsp; &emsp;Home</a>
+                </li>
+                <li>
+                    <a href="BankAccount.html"><i class="fa fa-university"></i>&emsp; &emsp;Bank Account</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-qrcode"></i>&emsp; &emsp;QR Code</a>
+                </li>
+                <li>
+                    <a href="#transSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
+                            class="fa fa-exchange"></i>&emsp; &emsp;Transaction</a>
+                    <ul class="collapse list-unstyled" id="transSubmenu">
+                        <li>
+                            <a href="MyTransaction.html">&emsp; &emsp;My Transactions</a>
+                        </li>
+                        <li>
+                            <a href="EmpTransaction.html">&emsp; &emsp;Employee Transactions</a>
+                        </li>
+                        <li>
+                            <a href="BankTransaction.html">&emsp; &emsp;Bank Transactions</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#profileSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fa fa-user"></i>&emsp; &emsp;My Profile</a>
+                    <ul class="collapse list-unstyled" id="profileSubmenu">
+                        <li>
+                            <a href="#"><i class="fa fa-key"></i>&emsp;&emsp;Change Pin</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-envelope-square"></i>&emsp;&emsp;Change Email</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fad fa-address-card"></i>&emsp;&emsp;Manage Address</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-language"></i></i>&emsp;&emsp;Change Language</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-crutch"></i></i>&emsp;&emsp;Unsubscribe</a>
+                        </li>
+                    </ul>
+                </li>
+                <h4 id="tic">Options</h4>
+                <li>
+                    <a href="Vendor.html"><i class="fa fa-industry"></i>&emsp; &emsp;Vendor</a>
+                </li>
+                <li>
+                    <a href="#"><i class="far fa-question-circle"></i>&emsp; &emsp;Help</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button type="button" id="sidebarCollapse" class="btn  btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Toggle Sidebar</span>
+
+                    </button>
+                </div>
+            </nav>
+            <div class="album py-5 bg-light ml-3">
+                <h5 class="ml-3">You can order from these famous restaurants</h5>
+                <br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="image/rest1.jpg" data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h4 class="text-center">Aluen PAU Food</h4>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    alt="Thumbnail [100%x225]" src="image/rest2.jpeg" data-holder-rendered="true"
+                                    style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <h4 class="text-center">Charles Grill</h4>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    alt="Thumbnail [100%x225]" src="image/rest3.jpg" data-holder-rendered="true"
+                                    style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <h4 class="text-center">Chang's Supermarket</h4>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    alt="Thumbnail [100%x225]" src="image/rest4.jpg" data-holder-rendered="true"
+                                    style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <h4 class="text-center">Colegio Arubeno</h4>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    alt="Thumbnail [100%x225]" src="image/rest5.jpg" data-holder-rendered="true"
+                                    style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <h4 class="text-center">Oranjested</h4>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    alt="Thumbnail [100%x225]" src="image/rest6.jpg" data-holder-rendered="true"
+                                    style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <h4 class="text-center">Diksha</h4>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    alt="Thumbnail [100%x225]" src="image/rest7.jpg" data-holder-rendered="true"
+                                    style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <h4 class="text-center">Diksha1</h4>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    alt="Thumbnail [100%x225]" src="image/rest8.jpg" data-holder-rendered="true"
+                                    style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <h4 class="text-center">Diksha2</h4>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    alt="Thumbnail [100%x225]" src="image/thumb.jpeg" data-holder-rendered="true"
+                                    style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <h4 class="text-center">Diksha3</h4>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+
+    </script>
+
+
+</body>
+
+</html>
