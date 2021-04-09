@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>WalletToBank</title>
+    <title>Help</title>
     <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -95,7 +95,6 @@
             </ul>
         </nav>
         <div id="content">
-
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <button type="button" id="sidebarCollapse" class="btn  btn-info">
@@ -103,30 +102,105 @@
                     </button>
                 </div>
             </nav>
-            <div class="bcon">
-                <h5>Bank Account</h5>
-                <div class="card text-center">
-                    <div class="card-header">
-                        <h6 class="bnk">Send money to bank from wallet</h6>
-                        <h6 class="bnk">Wallet balance is : 25</h6>
+            <div class="ml-4 mt-4">
+                <h5>Frequently Asked Questions</h5>
+                <br>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="accordian-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    Bank Related
+                                </button>
+                            </h5>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <img src="image/aruba.png">
-                        <br><br>
-                        <form class="form-inline my-2 my-lg-0">
-                            <label>afl.</label>&ensp;
-                            <input class="form-control mr-sm-2" type="search" placeholder="amount" aria-label="Search">
-                        </form>
-                        <br>
-                        <h6 class="card-title">Bank Name : Aruba Bank</h6>
-                        <h6 class="card-title">Bank Account Number : 12345262</h6>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            State Bank Of India
+                        </div>
                     </div>
-                    <button class="btn btn-outline-success my-4 my-sm-2 mr-5 ml-5" type="submit">Continue</button>
                 </div>
-
+                <div class="card">
+                    <div class="accordian-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
+                                Payment Related
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            UPI, Phone Pay
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="accordian-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree">
+                                Profile Related
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            Profile Stuff
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="accordian-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                                aria-expanded="false" aria-controls="collapseFour">
+                                What is pay.aw
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                            Website
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="accordian-header" id="headingFive">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
+                                aria-expanded="false" aria-controls="collapseFive">
+                                How to use pay.aw
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                        <div class="card-body">
+                            Use mobile
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="accordian-header" id="headingSix">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix"
+                                aria-expanded="false" aria-controls="collapseSix">
+                                How to add money into pay.aw
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                        <div class="card-body">
+                            Use your wallet
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

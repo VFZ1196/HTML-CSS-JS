@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Vendor</title>
+    <title>Venders</title>
     <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -38,20 +38,18 @@
         <nav id="sidebar">
             <div class="sidebar-header">
                 <img src="image/1.png" id="pic">
-                <!-- <h4>Add Image here</h4> -->
             </div>
-            <ul class="lisst-unstyled components">
-                <li class="active">
-                <li>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
                     <a href="HomePage.html"><i class="fa fa-home"></i>&emsp; &emsp;Home</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="BankAccount.html"><i class="fa fa-university"></i>&emsp; &emsp;Bank Account</a>
                 </li>
-                <li>
-                    <a href="#"><i class="fa fa-qrcode"></i>&emsp; &emsp;QR Code</a>
+                <li class="list-group-item">
+                    <a href="QrCode.html"><i class="fa fa-qrcode"></i>&emsp; &emsp;QR Code</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#transSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
                             class="fa fa-exchange"></i>&emsp; &emsp;Transaction</a>
                     <ul class="collapse list-unstyled" id="transSubmenu">
@@ -66,7 +64,7 @@
                         </li>
                     </ul>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#profileSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <i class="fa fa-user"></i>&emsp; &emsp;My Profile</a>
                     <ul class="collapse list-unstyled" id="profileSubmenu">
@@ -88,11 +86,11 @@
                     </ul>
                 </li>
                 <h4 id="tic">Options</h4>
-                <li>
+                <li class="list-group-item">
                     <a href="Vendor.html"><i class="fa fa-industry"></i>&emsp; &emsp;Vendor</a>
                 </li>
-                <li>
-                    <a href="#"><i class="far fa-question-circle"></i>&emsp; &emsp;Help</a>
+                <li class="list-group-item">
+                    <a href="Help.html"><i class="far fa-question-circle"></i>&emsp; &emsp;Help</a>
                 </li>
             </ul>
         </nav>
@@ -101,40 +99,190 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <button type="button" id="sidebarCollapse" class="btn  btn-info">
-                        <i class="fas fa-align-left"></i>
-                        <span>Toggle Sidebar</span>
-
+                        <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
             </nav>
-            <div class="tcon">
-                <h3>Venders List</h3>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Vendor Name</th>
-                            <th>Email</th>
-                            <th>Address</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Diksha</td>
-                            <td>Diksha@gmail.com</td>
-                            <td>SadashivNagar</td>
-                        </tr>
-                        <tr>
-                            <td>Diksha1</td>
-                            <td>Diksha1@gmail.com</td>
-                            <td>SadashivNagar</td>
-                        </tr>
-                        <tr>
-                            <td>Diksha2</td>
-                            <td>Diksha2@gmail.com</td>
-                            <td>SadashivNagar</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="album py-2 bg-light ml-3">
+                <h5 class="ml-3">Venders</h5>
+                <br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" alt="Thumbnail [100%x225]"
+                                    style="height: 225px; width: 100%; display: block;" src="image/arvender.jpg"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h4 class="text-center">Arugas</h4>
+                                    <p class="text-center">Street 1</p>
+                                    <h5 class="text-center">5600002</h5>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-secondary">
+                                                <i class="fa fa-phone"></i> Call</button>
+                                        </div>
+                                        <button type="button" class="btn btn-sm btn-secondary">
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i> Get Directions</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/arvender.jpg"
+                                    data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <h4 class="text-center">Benihana</h4>
+                                    <p class="text-center">Spinozastreet 9</p>
+                                    <h5 class="text-center">5970155</h5>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-secondary">
+                                                <i class="fa fa-phone"></i> Call</button>
+                                        </div>
+                                        <button type="button" class="btn btn-sm btn-secondary">
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i> Get Directions</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/arvender.jpg"
+                                    data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <h4 class="text-center">Biggane</h4>
+                                    <p class="text-center">Test</p>
+                                    <h5 class="text-center">5600003</h5>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-secondary">
+                                                <i class="fa fa-phone"></i> Call</button>
+                                        </div>
+                                        <button type="button" class="btn btn-sm btn-secondary">
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i> Get Directions</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/arvender.jpg"
+                                    data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <h4 class="text-center">Auto Parts</h4>
+                                    <p class="text-center">Street 10</p>
+                                    <h5 class="text-center">561025</h5>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-secondary">
+                                                <i class="fa fa-phone"></i> Call</button>
+                                        </div>
+                                        <button type="button" class="btn btn-sm btn-secondary">
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i> Get Directions</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/arvender.jpg"
+                                    data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <h4 class="text-center">Serlimar</h4>
+                                    <p class="text-center">Zoombi</p>
+                                    <h5 class="text-center">5600522</h5>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-secondary">
+                                                <i class="fa fa-phone"></i> Call</button>
+                                        </div>
+                                        <button type="button" class="btn btn-sm btn-secondary">
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i> Get Directions</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/arvender.jpg"
+                                    data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <h4 class="text-center">Diksha1</h4>
+                                    <p class="text-center">Street 5</p>
+                                    <h5 class="text-center">5600005</h5>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-secondary">
+                                                <i class="fa fa-phone"></i> Call</button>
+                                        </div>
+                                        <button type="button" class="btn btn-sm btn-secondary">
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i> Get Directions</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/arvender.jpg"
+                                    data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <h4 class="text-center">Diksha2</h4>
+                                    <p class="text-center">Street 6</p>
+                                    <h5 class="text-center">5600006</h5>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-secondary">
+                                                <i class="fa fa-phone"></i> Call</button>
+                                        </div>
+                                        <button type="button" class="btn btn-sm btn-secondary">
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i> Get Directions</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/arvender.jpg"
+                                    data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <h4 class="text-center">Diksha3</h4>
+                                    <p class="text-center">Street 7</p>
+                                    <h5 class="text-center">5600007</h5>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-secondary">
+                                                <i class="fa fa-phone"></i> Call</button>
+                                        </div>
+                                        <button type="button" class="btn btn-sm btn-secondary">
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i> Get Directions</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/arvender.jpg"
+                                    data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                <div class="card-body">
+                                    <h4 class="text-center">Diksha4</h4>
+                                    <p class="text-center">Street 8</p>
+                                    <h5 class="text-center">5600008</h5>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-secondary">
+                                                <i class="fa fa-phone"></i> Call</button>
+                                        </div>
+                                        <button type="button" class="btn btn-sm btn-secondary">
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i> Get Directions</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

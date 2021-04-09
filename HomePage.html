@@ -37,22 +37,20 @@
         <nav id="sidebar">
             <div class="sidebar-header">
                 <img src="image/1.png" id="pic">
-                <!-- <h4>Add Image here</h4> -->
             </div>
-            <ul class="lisst-unstyled components">
-                <li class="active">
-                <li>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
                     <a href="HomePage.html"><i class="fa fa-home"></i>&emsp; &emsp;Home</a>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="BankAccount.html"><i class="fa fa-university"></i>&emsp; &emsp;Bank Account</a>
                 </li>
-                <li>
-                    <a href="#"><i class="fa fa-qrcode"></i>&emsp; &emsp;QR Code</a>
+                <li class="list-group-item">
+                    <a href="QrCode.html"><i class="fa fa-qrcode"></i>&emsp; &emsp;QR Code</a>
                 </li>
-                <li>
-                    <a href="#transSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
-                            class="fa fa-exchange"></i>&emsp; &emsp;Transaction</a>
+                <li class="list-group-item">
+                    <a href="#transSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fa fa-exchange"></i>&emsp; &emsp;Transaction</a>
                     <ul class="collapse list-unstyled" id="transSubmenu">
                         <li>
                             <a href="MyTransaction.html">&emsp; &emsp;My Transactions</a>
@@ -65,7 +63,7 @@
                         </li>
                     </ul>
                 </li>
-                <li>
+                <li class="list-group-item">
                     <a href="#profileSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <i class="fa fa-user"></i>&emsp; &emsp;My Profile</a>
                     <ul class="collapse list-unstyled" id="profileSubmenu">
@@ -87,23 +85,21 @@
                     </ul>
                 </li>
                 <h4 id="tic">Options</h4>
-                <li>
+                <li class="list-group-item">
                     <a href="Vendor.html"><i class="fa fa-industry"></i>&emsp; &emsp;Vendor</a>
                 </li>
-                <li>
-                    <a href="#"><i class="far fa-question-circle"></i>&emsp; &emsp;Help</a>
+                <li class="list-group-item">
+                    <a href="Help.html"><i class="far fa-question-circle"></i>&emsp; &emsp;Help</a>
                 </li>
             </ul>
         </nav>
 
         <div id="content">
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
                 <div class="container-fluid">
                     <button type="button" id="sidebarCollapse" class="btn  btn-info">
-                        <i class="fas fa-align-left"></i>
-                        <span>Toggle Sidebar</span>
-
+                        <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
             </nav>
@@ -146,7 +142,7 @@
                         </button>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="Restaurants.html">Restaurants</a>
-                            <a class="dropdown-item" href="RestCategory.html">Category</a>
+                            <a class="dropdown-item" href="FoodCategory.html">Category</a>
                         </div>
                     </div>
 
@@ -157,7 +153,7 @@
                             <span class="sr-only">Toggle Dropdown</span>
                         </button>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="Shop.html">Shop</a>
+                            <a class="dropdown-item" href="Shop.html">Shops</a>
                             <a class="dropdown-item" href="ShopCategory.html">Category</a>
                         </div>
                     </div>
@@ -195,7 +191,6 @@
         });
 
     </script>
-
 
 </body>
 
