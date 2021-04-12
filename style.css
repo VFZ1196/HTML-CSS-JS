@@ -14,8 +14,12 @@ p{
     padding-left: 14%;
 }
 #tic{
-    padding-left: 4%;
-    color: rgb(117, 51, 51);
+    margin-left: 8%;
+	padding: 10px;
+    color: rgb(55, 63, 63);
+}
+.ti{
+	background-color:#72c1ca;
 }
 a,
 a:hover,
@@ -36,7 +40,7 @@ a:focus{
 }
 
 #sidebar{
-	border: 1px solid gray;
+	border: 1px solid lightgray;
 	min-width: 275px;
 	max-width: 275px;
 	background:white;
