@@ -8,6 +8,7 @@
 
 .notifications {
    min-width:420px; 
+   margin-left: -370px;
   }
   
   .notifications-wrapper {
@@ -16,7 +17,7 @@
     }
     
  .menu-title {
-     color:#ff7788;
+     color:#ee1414;
      font-size:1.5rem;
       display:inline-block;
       }

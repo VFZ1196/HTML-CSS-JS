@@ -1,7 +1,7 @@
 /* CSS for login page */
     /*set border to the form*/
     form {
-        border: 3px solid #f1f1f1;
+        border: 1px solid #f1f1f1;
     }
     .lgn{
         margin-top: 50px;
@@ -21,21 +21,22 @@
     input[type=text],
     input[type=password] {
         width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
+        padding: 9px 17px;
+        margin: 6px 0;
         display: inline-block;
         border: 1px solid #ccc;
         box-sizing: border-box;
     }
     /*set a style for the buttons*/    
     button {
-        background-color: #4CAF50;
+        background-color: #72c1ca;
         color: white;
-        padding: 14px 20px;
+        padding: 12px 18px;
         margin: 8px 0;
+        margin-left: 280px;
         border: none;
         cursor: pointer;
-        width: 100%;
+        width: 23%;
     }
     /* set a hover effect for the button*/
     button:hover {
@@ -43,6 +44,7 @@
     }
     /*set extra style for the cancel button*/
     .cancelbtn {
+        margin-left: 3px;
         width: auto;
         padding: 10px 18px;
         background-color: #f44336;
@@ -52,7 +54,7 @@
         margin-top: 8px;
         width: auto;
         padding: 10px 18px;
-        background-color: #4CAF50;
+        background-color: #72c1ca;
         float: right;
         color: white;
     }
@@ -73,10 +75,29 @@
 
     /* CSS for signup page */
     span.aha {
-        text-align: center;
+        text-align: left;
     }
     .sng{
         margin-top: 30px;
         margin-left: 450px;
         margin-right: 450px;
     }
+    .sup{
+        background-color: #72c1ca;
+        color: white;
+        padding: 12px 18px;
+        margin: -1px 0;
+        margin-left: 314px;
+        border: none;
+        cursor: pointer;
+        width: 23%;
+    }
+
+   /* CSS for Change language page */
+   .clgn{
+    margin-top: 190px;
+    margin-left: 480px;
+    margin-right: 480px;
+}
+
+

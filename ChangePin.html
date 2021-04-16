@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>LoginPage</title>
+    <title>ChangePin</title>
     <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -12,30 +12,26 @@
 </head>
 
 <body>
-<div class="lgn">
-    <form>
-        <div class="imgcontainer">
-            <img src="image/1.png" alt="Pay.aw">
-            <h5>Signin</h5>
-        </div>
-        <div class="container">
-            <label><b>Username</b></label>
-            <input type="text" placeholder="Enter Email" name="uname" required>
+    <div class="lgn">
+        <form>
+            <div class="imgcontainer">
+                <img src="image/1.png" alt="Pay.aw">
+                <h5>Change Pin</h5>
+            </div>
+            <div class="container">
+                <label><b>Current Pin</b></label>
+                <input type="text" placeholder="Enter current pin" name="opin" required>
 
-            <label><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
+                <label><b>New Pin</b></label>
+                <input type="password" placeholder="Enter new pin" name="psw" required>
 
-            <button type="submit">Login</button><br>
-            <input type="checkbox" checked="checked"> Remember me
-            <span class="psw">Forgot <a href="#">password?</a></span>
-        </div>
-
-        <div class="container" style="background-color:#f1f1f1">
-            <button type="button" class="cancelbtn">Cancel</button>
-            <a href="SignUp.html" type="button" class="signupbtn">Sign up</a>
-        </div>
-    </form>
-</div>
+                <label><b>ReEnter Pin</b></label>
+                <input type="password" placeholder="ReEnter new pin" name="psw" required>
+                <br>
+                <button type="submit">Save</button><br>
+            </div>
+        </form>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
