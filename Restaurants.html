@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="Noti.CSS">
 
 </head>
 
@@ -31,6 +32,69 @@
                 <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
                 <a href="Login.html" class="btn btn-outline-primary my-2 my-sm-0 ml-1" type="submit">Login</a>
             </form>
+            <div class="dropdown">
+                <a id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="#">
+                    <i class="fas fa-bell ml-1"></i>
+                </a>
+
+                <ul class="dropdown-menu notifications" role="menu" aria-labelledby="dLabel">
+
+                    <div class="notification-heading">
+                        <h6 class="menu-title">Notifications</h6>
+                        </h5>
+                    </div>
+                    <li class="divider"></li>
+                    <div class="notifications-wrapper">
+                        <a class="content" href="#">
+                            <div class="notification-item">
+                                <h4 class="item-title">Evaluation Deadline 1 · day ago</h4>
+                                <p class="item-info">Marketing 101, Video Assignment</p>
+                            </div>
+                        </a>
+                        <hr>
+                        <a class="content" href="#">
+                            <div class="notification-item">
+                                <h4 class="item-title">Evaluation Deadline 1 · day ago</h4>
+                                <p class="item-info">Marketing 101, Video Assignment</p>
+                            </div>
+                        </a>
+                        <hr>
+                        <a class="content" href="#">
+                            <div class="notification-item">
+                                <h4 class="item-title">Evaluation Deadline 1 • day ago</h4>
+                                <p class="item-info">Marketing 101, Video Assignment</p>
+                            </div>
+                        </a>
+                        <hr>
+                        <a class="content" href="#">
+                            <div class="notification-item">
+                                <h4 class="item-title">Evaluation Deadline 1 • day ago</h4>
+                                <p class="item-info">Marketing 101, Video Assignment</p>
+                            </div>
+                        </a>
+                        <hr>
+                        <a class="content" href="#">
+                            <div class="notification-item">
+                                <h4 class="item-title">Evaluation Deadline 1 • day ago</h4>
+                                <p class="item-info">Marketing 101, Video Assignment</p>
+                            </div>
+                        </a>
+                        <hr>
+                        <a class="content" href="#">
+                            <div class="notification-item">
+                                <h4 class="item-title">Evaluation Deadline 1 • day ago</h4>
+                                <p class="item-info">Marketing 101, Video Assignment</p>
+                            </div>
+                        </a>
+                    </div>
+                    <li class="divider"></li>
+                    <div class="notification-footer">
+                        <div class="vnoti">
+                            <a class="btn btn-primary" href="Notification.html" role="button">View all</a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -73,7 +137,8 @@
                             <a href="ChangePin.html"><i class="fa fa-key"></i>&emsp;&emsp;Change Pin</a>
                         </li>
                         <li>
-                            <a href="ChangeEmail.html"><i class="fas fa-envelope-square"></i>&emsp;&emsp;Change Email</a>
+                            <a href="ChangeEmail.html"><i class="fas fa-envelope-square"></i>&emsp;&emsp;Change
+                                Email</a>
                         </li>
                         <li>
                             <a href="MAddress.html"><i class="fad fa-address-card"></i>&emsp;&emsp;Manage Address</a>
@@ -96,161 +161,164 @@
             </ul>
         </nav>
         <div id="content">
+            <div class="setnav">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <button type="button" id="sidebarCollapse" class="btn  btn-info">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+            <div class="srv">
+                <h5 class="ml-1">You can order from these famous restaurants</h5>
+                <div class="album bg-light">
+                    <br>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <img class="card-img-top" alt="Thumbnail [100%x225]"
+                                        style="height: 225px; width: 100%; display: block;" src="image/rest1.jpg"
+                                        data-holder-rendered="true">
+                                    <div class="card-body">
+                                        <h4 class="text-center">Aluen PAU Food</h4>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a href="#" class="btn btn-sm btn-outline-secondary" role="button"
+                                                    aria-pressed="true">View</a>
+                                            </div>
+                                            <small class="text-muted">9 mins</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/rest2.jpeg"
+                                        data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                    <div class="card-body">
+                                        <h4 class="text-center">Charles Grill</h4>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a href="#" class="btn btn-sm btn-outline-secondary" role="button"
+                                                    aria-pressed="true">View</a>
+                                            </div>
+                                            <small class="text-muted">9 mins</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/rest3.jpg"
+                                        data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                    <div class="card-body">
+                                        <h4 class="text-center">Chang's Supermarket</h4>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a href="#" class="btn btn-sm btn-outline-secondary" role="button"
+                                                    aria-pressed="true">View</a>
+                                            </div>
+                                            <small class="text-muted">9 mins</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/rest4.jpg"
+                                        data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                    <div class="card-body">
+                                        <h4 class="text-center">Colegio Arubeno</h4>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a href="#" class="btn btn-sm btn-outline-secondary" role="button"
+                                                    aria-pressed="true">View</a>
+                                            </div>
+                                            <small class="text-muted">9 mins</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/rest5.jpg"
+                                        data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                    <div class="card-body">
+                                        <h4 class="text-center">Oranjested</h4>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a href="#" class="btn btn-sm btn-outline-secondary" role="button"
+                                                    aria-pressed="true">View</a>
+                                            </div>
+                                            <small class="text-muted">9 mins</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/rest6.jpg"
+                                        data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                    <div class="card-body">
+                                        <h4 class="text-center">Diksha</h4>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a href="#" class="btn btn-sm btn-outline-secondary" role="button"
+                                                    aria-pressed="true">View</a>
+                                            </div>
+                                            <small class="text-muted">9 mins</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <button type="button" id="sidebarCollapse" class="btn  btn-info">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-            </nav>
-            <div class="album py-3 bg-light ml-3">
-                <h5 class="ml-3">You can order from these famous restaurants</h5>
-                <br>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card mb-4 box-shadow">
-                                <img class="card-img-top" alt="Thumbnail [100%x225]"
-                                    style="height: 225px; width: 100%; display: block;" src="image/rest1.jpg"
-                                    data-holder-rendered="true">
-                                <div class="card-body">
-                                    <h4 class="text-center">Aluen PAU Food</h4>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a href="#" class="btn btn-sm btn-outline-secondary" role="button"
-                                                aria-pressed="true">View</a>
+                            <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/rest7.jpg"
+                                        data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                    <div class="card-body">
+                                        <h4 class="text-center">Diksha1</h4>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a href="#" class="btn btn-sm btn-outline-secondary" role="button"
+                                                    aria-pressed="true">View</a>
+                                            </div>
+                                            <small class="text-muted">9 mins</small>
                                         </div>
-                                        <small class="text-muted">9 mins</small>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4 box-shadow">
-                                <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/rest2.jpeg"
-                                    data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                                <div class="card-body">
-                                    <h4 class="text-center">Charles Grill</h4>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a href="#" class="btn btn-sm btn-outline-secondary" role="button"
-                                                aria-pressed="true">View</a>
+                            <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/rest8.jpg"
+                                        data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                    <div class="card-body">
+                                        <h4 class="text-center">Diksha2</h4>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a href="#" class="btn btn-sm btn-outline-secondary" role="button"
+                                                    aria-pressed="true">View</a>
+                                            </div>
+                                            <small class="text-muted">9 mins</small>
                                         </div>
-                                        <small class="text-muted">9 mins</small>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4 box-shadow">
-                                <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/rest3.jpg"
-                                    data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                                <div class="card-body">
-                                    <h4 class="text-center">Chang's Supermarket</h4>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a href="#" class="btn btn-sm btn-outline-secondary" role="button"
-                                                aria-pressed="true">View</a>
+                            <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                    <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/thumb.jpeg"
+                                        data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                    <div class="card-body">
+                                        <h4 class="text-center">Diksha3</h4>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <a href="#" class="btn btn-sm btn-outline-secondary" role="button"
+                                                    aria-pressed="true">View</a>
+                                            </div>
+                                            <small class="text-muted">9 mins</small>
                                         </div>
-                                        <small class="text-muted">9 mins</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4 box-shadow">
-                                <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/rest4.jpg"
-                                    data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                                <div class="card-body">
-                                    <h4 class="text-center">Colegio Arubeno</h4>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a href="#" class="btn btn-sm btn-outline-secondary" role="button"
-                                                aria-pressed="true">View</a>
-                                        </div>
-                                        <small class="text-muted">9 mins</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4 box-shadow">
-                                <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/rest5.jpg"
-                                    data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                                <div class="card-body">
-                                    <h4 class="text-center">Oranjested</h4>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a href="#" class="btn btn-sm btn-outline-secondary" role="button"
-                                                aria-pressed="true">View</a>
-                                        </div>
-                                        <small class="text-muted">9 mins</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4 box-shadow">
-                                <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/rest6.jpg"
-                                    data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                                <div class="card-body">
-                                    <h4 class="text-center">Diksha</h4>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a href="#" class="btn btn-sm btn-outline-secondary" role="button"
-                                                aria-pressed="true">View</a>
-                                        </div>
-                                        <small class="text-muted">9 mins</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="card mb-4 box-shadow">
-                                <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/rest7.jpg"
-                                    data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                                <div class="card-body">
-                                    <h4 class="text-center">Diksha1</h4>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a href="#" class="btn btn-sm btn-outline-secondary" role="button"
-                                                aria-pressed="true">View</a>
-                                        </div>
-                                        <small class="text-muted">9 mins</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4 box-shadow">
-                                <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/rest8.jpg"
-                                    data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                                <div class="card-body">
-                                    <h4 class="text-center">Diksha2</h4>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a href="#" class="btn btn-sm btn-outline-secondary" role="button"
-                                                aria-pressed="true">View</a>
-                                        </div>
-                                        <small class="text-muted">9 mins</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card mb-4 box-shadow">
-                                <img class="card-img-top" alt="Thumbnail [100%x225]" src="image/thumb.jpeg"
-                                    data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
-                                <div class="card-body">
-                                    <h4 class="text-center">Diksha3</h4>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div class="btn-group">
-                                            <a href="#" class="btn btn-sm btn-outline-secondary" role="button"
-                                                aria-pressed="true">View</a>
-                                        </div>
-                                        <small class="text-muted">9 mins</small>
                                     </div>
                                 </div>
                             </div>

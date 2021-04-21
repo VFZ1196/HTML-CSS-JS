@@ -10,6 +10,10 @@ p{
 	line-height: 1.7em;
 	color: #999;
 }
+.setnav{
+    margin-left: 30px;
+    margin-right: 900px;
+}
 #pic{
     padding-left: 14%;
 }
@@ -94,7 +98,7 @@ a[data-toggle="collapse"]{
 ul ul a{
 	font-size: 0.9em !important;
 	padding-left: 30px !important;
-	background: rgb(248, 245, 245);
+	background: white;
 }
 .icard{
 	margin-top: 40px;

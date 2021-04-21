@@ -6,7 +6,7 @@
 }
 .bnk{
     text-align-last: center;
-    color: white;
+    color:white;
 }
 .bt{
     text-align: right;
@@ -59,4 +59,18 @@
     margin-left: 30px;
     margin-right: 100px;
 }
+.myTr{
+    margin-left: 30px;
+}
+.srv{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+/* CSS for billpayment */
+.mybnk{
+    text-align-last: left;
+    color:white;
+}
+
 
