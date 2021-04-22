@@ -44,10 +44,11 @@
  }
      */
 .notification-item {
- padding:7px;
+ padding:5px;
  margin:5px;
- background:lightgray;
+ background:white;
  border-radius:10px;
+ border: solid rgba(0, 0, 0, 0.76) 1px;
  }
  .vnoti{
    margin-top: 5px;

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style1.css">
@@ -118,12 +119,15 @@
                     <a href="#transSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
                             class="fa fa-exchange"></i>&emsp; &emsp;Transaction</a>
                     <ul class="collapse list-unstyled" id="transSubmenu">
+                        <hr>
                         <li>
                             <a href="MyTransaction.html">&emsp; &emsp;My Transactions</a>
                         </li>
+                        <hr>
                         <li>
                             <a href="EmpTransaction.html">&emsp; &emsp;Employee Transactions</a>
                         </li>
+                        <hr>
                         <li>
                             <a href="BankTransaction.html">&emsp; &emsp;Bank Transactions</a>
                         </li>
@@ -133,19 +137,24 @@
                     <a href="#profileSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <i class="fa fa-user"></i>&emsp; &emsp;My Profile</a>
                     <ul class="collapse list-unstyled" id="profileSubmenu">
+                        <hr>
                         <li>
                             <a href="ChangePin.html"><i class="fa fa-key"></i>&emsp;&emsp;Change Pin</a>
                         </li>
+                        <hr>
                         <li>
                             <a href="ChangeEmail.html"><i class="fas fa-envelope-square"></i>&emsp;&emsp;Change
                                 Email</a>
                         </li>
+                        <hr>
                         <li>
                             <a href="MAddress.html"><i class="fad fa-address-card"></i>&emsp;&emsp;Manage Address</a>
                         </li>
+                        <hr>
                         <li>
                             <a href="ChangLang.html"><i class="fas fa-language"></i></i>&emsp;&emsp;Change Language</a>
                         </li>
+                        <hr>
                         <li>
                             <a href="#"><i class="fas fa-crutch"></i></i>&emsp;&emsp;Unsubscribe</a>
                         </li>
@@ -178,6 +187,8 @@
                         </div>
                     </div>
                     <div class="card-body">
+                        <input class="form-control" id="myInput" type="text" placeholder="Search..">
+                        <br>
                         <table class="table">
                             <thead>
                                 <tr>
@@ -187,7 +198,7 @@
                                     <th scope="col">Transaction Date</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody id="myTable">
                                 <tr>
                                     <th scope="row">112</th>
                                     <td>HDFC</td>
@@ -267,6 +278,17 @@
             });
         });
 
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#myInput").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#myTable tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
     </script>
 
 
