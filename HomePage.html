@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Noti.CSS">
 
@@ -18,7 +17,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -32,11 +31,12 @@
             </form>
             <div class="dropdown">
                 <a id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="#">
-                    <i class="fas fa-bell ml-1"></i>
+                    <div class="bun">
+                        <i class="fa fa-bell"></i>
+                        <span class="bun_badge">2</span>
+                    </div>
                 </a>
-
                 <ul class="dropdown-menu notifications" role="menu" aria-labelledby="dLabel">
-
                     <div class="notification-heading">
                         <h6 class="menu-title">Notifications</h6>
                         </h5>
@@ -116,7 +116,7 @@
                 </li>
                 <li class="list-group-item">
                     <a href="#transSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                        <i class="fa fa-exchange"></i>&emsp; &emsp;Transaction</a>
+                        <i class="fas fa-exchange-alt"></i>&emsp; &emsp;Transaction</a>
                     <ul class="collapse list-unstyled" id="transSubmenu">
                         <hr>
                         <li>

@@ -61,4 +61,29 @@ margin-left: -20px;
   margin-left: -40px;
 }
 
+/* For Notification icon*/
+.bun {
+  color: rgb(48, 42, 42);
+  display: inline-block; 
+  position: relative;
+  padding: 2px 15px;
+}
+.bun_badge {
+  background-color: #fa3e3e;
+  border-radius:30px;
+  color: rgb(255, 255, 255);
+  padding: 2px 3px;
+  font-size: 9px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;   
+  border: 2px solid #FFF;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
 
