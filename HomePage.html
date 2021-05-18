@@ -3,6 +3,7 @@
 
 <head>
     <title>HomePage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -167,7 +168,23 @@
                     <a href="Help.html"><i class="far fa-question-circle"></i>&emsp; &emsp;Help</a>
                 </li>
             </ul>
+            <!-- This menu is hidden in bigger devices with d-sm-none. 
+           The sidebar isn't proper for smaller screens imo, so this dropdown menu can keep all the useful sidebar itens exclusively for smaller screens  -->
+           <li class="nav-item dropdown d-sm-block d-md-none" id="smallscreennav" >
+            <a class="nav-link dropdown" href="#" id="smallerscreenmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Menu </a>
+            <div class="dropdown-menu" aria-labelledby="smallerscreenmenu">
+                <a class="dropdown-item" href="index.html">Home</a>
+                <a class="dropdown-item" href="bankaccount.html">Bank Account</a>
+                <a class="dropdown-item" href="transactions.html">Transactions</a>
+                <a class="dropdown-item" href="myprofile.html">Profile</a>
+                <a class="dropdown-item" href="qrcode.html">My QR Code</a>
+                <a class="dropdown-item" href="vendors.html">Vendors</a>
+                <a class="dropdown-item" href="help.html">Help</a>
+                <a class="dropdown-item" href="unsubscribe.html">Unsubscribe</a>
+            </div>
+         </li> <!--Smaller devices menu END -->
         </nav>
+
 
         <div id="content">
             <div class="setnav">
@@ -208,7 +225,7 @@
                 </div>
             </div>
             <div class="fs">
-                <div class="row mt-4">
+                <div class="col-3 mt-4">
                     <div class="btn-group">
                         <button type="button" class="btn btn-secondary">Food</button>
                         <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
@@ -221,7 +238,7 @@
                         </div>
                     </div>
 
-                    <div class="btn-group ml-4">
+                    <div class="btn-group ml-1 mt-4">
                         <button type="button" class="btn btn-secondary">Shopping</button>
                         <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -232,7 +249,7 @@
                             <a class="dropdown-item" href="ShopCategory.html">Category</a>
                         </div>
                     </div>
-                    <div class="btn-group ml-4">
+                    <div class="btn-group ml-1 mt-4">
                         <button type="button" class="btn btn-secondary">Payment</button>
                         <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -243,7 +260,7 @@
                             <a class="dropdown-item" href="BillPayment.html">Bill Payment</a>
                         </div>
                     </div>
-                    <div class="ml-4">
+                    <div class="ml-1 mt-4">
                         <a href="more.html" class="btn btn-secondary btn-lg active" role="button"
                             aria-pressed="true">More</a>
                     </div>

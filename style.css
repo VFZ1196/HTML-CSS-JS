@@ -1,7 +1,22 @@
-body{
+/* body{
     position: relative;
 	font-family: 'Poppins', sans-serif;
 	background:white;
+} */ 
+/* @media only screen and (max-width: 600px) {
+	body {
+	  background-color: lightblue;
+	}
+  } */
+@media(min-width:360px) and (max-width:640){
+	arousel-inner,.carousel-item{
+		height: 200px;
+	  }
+}
+@media(min-width:360px) and (max-width:640){ 
+.sidebar{
+	display: none;
+}
 }
 p{
 	font-family: 'Poppins', sans-serif;
@@ -17,6 +32,7 @@ p{
 #pic{
     padding-left: 14%;
 }
+
 #tic{
     margin-left: 8%;
 	padding: 10px;
