@@ -1,45 +1,74 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <title>SignUp</title>
-    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-    <link rel="stylesheet" href="logpage.CSS">
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Log.CSS">
+    <title>SignUp1</title>
 </head>
 
 <body>
-<div class="sng">
-    <form>
+
+    <form style="height: 800px;">
         <div class="imgcontainer">
-            <img src="image/1.png" height="80px" alt="Pay.aw">
-            <h3>Signup</h3>
+            <img src="image/1.png" alt="Pay.aw">
         </div>
+        <h5 class="text-center">Please SignUp</h5>
         <div class="container">
-            <label><b>First Name</b></label>
-            <input type="text" placeholder="Enter Firstname" name="uname" required>
+            <label for="uname"><b>FirstName</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
 
-            <label><b>Last Name</b></label>
-            <input type="text" placeholder="Enter Lastname" name="psw" required>
+            <label for="uname"><b>Lastname</b></label>
+            <input type="text" placeholder="Enter Lastname" name="uname" required>
 
-            <label><b>Email address</b></label>
-            <input type="text" placeholder="Enter email" name="uname" required>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
 
             <label><b>Password</b></label>
-            <input type="password" placeholder="Enter new password" name="psw" required>
+            <input type="password" placeholder="Enter password" name="psw" required>
 
             <label><b>Conferm Password</b></label>
-            <input type="password" placeholder="ReEnter password" name="psw" required>
-            
-            <span class="aha"><a href="Login.html">Already have an account?</a></span>
-            <button type="submit" class="sup">Sign up</button>
+            <input type="password" placeholder="Enter new password" name="psw" required>
+
+            <button type="submit">SignUp</button>
+            <span><a href="Login1.html">Already have an account?</a></span>
         </div>
     </form>
-</div>
 
+    <div class="dropdown-menu">
+        <form class="px-4 py-3">
+            <div class="form-group">
+                <label for="exampleDropdownFormEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleDropdownFormPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                <label class="form-check-label" for="dropdownCheck">
+                    Remember me
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">New around here? Sign up</a>
+        <a class="dropdown-item" href="#">Forgot password?</a>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -49,7 +78,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>

@@ -1,42 +1,46 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <title>LoginPage</title>
-    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-    <link rel="stylesheet" href="logpage.CSS">
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Log.CSS">
+    <title>Login1</title>
 </head>
 
 <body>
-<div class="lgn">
     <form>
         <div class="imgcontainer">
-            <img src="image/1.png" height="80px" alt="Pay.aw">
-            <h3>Signin</h3>
+            <img src="image/1.png" alt="Pay.aw">
         </div>
+        <h5 class="text-center">Please Login</h5>
         <div class="container">
-            <label><b>Username</b></label>
-            <input type="text" placeholder="Enter Email" name="uname" required>
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
 
-            <label><b>Password</b></label>
+            <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
 
-            <button type="submit">Login</button><br>
-            <input type="checkbox" checked="checked"> Remember me
+            <button type="submit">Login</button>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
             <span class="psw">Forgot <a href="#">password?</a></span>
         </div>
 
         <div class="container" style="background-color:#f1f1f1">
-            <a href="HomePage.html" type="button" class="cancelbtn">Cancel</a>
-            <a href="SignUp.html" type="button" class="signupbtn">Sign up</a>
+            <a href="HomePage1.html" type="button" class="cancelbtn">Cancel</a>
+            <a href="SignUp1.html" type="button" class="signupbtn">Sign up</a>
         </div>
     </form>
-</div>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -46,7 +50,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>

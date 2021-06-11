@@ -1,38 +1,55 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <title>ChangeEmail</title>
-    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-    <link rel="stylesheet" href="logpage.CSS">
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Log.CSS">
+    <title>ChangeEmail</title>
 </head>
 
 <body>
-    <div class="lgn">
-        <form>
-            <div class="imgcontainer">
-                <img src="image/1.png" height="80px" alt="Pay.aw">
-                <h4>Change Email</h4>
-            </div>
-            <div class="container">
-                <label><b>Current Email</b></label>
-                <input type="text" placeholder="Enter current email" name="cmail" required>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link disabled" href="ChangePin.html">ChangePin</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="ChangeEmail.html">ChangeEmail</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="ChangLang.html">ChangeLanguage</a>
+        </li>
+    </ul>
+    <br>
 
-                <label><b>New Email</b></label>
-                <input type="text" placeholder="Enter new email" name="cmail" required>
+    <form style="height: 600px;">
+        <div class="imgcontainer">
+            <img src="image/1.png" height="80px" alt="Pay.aw">
+            <h4>Change Email</h4>
+        </div>
+        <div class="container">
+            <label><b>Current Email</b></label>
+            <input type="text" placeholder="Enter current email" name="cmail" required>
 
-                <label><b>Enter password</b></label>
-                <input type="password" placeholder="New email password" name="psw" required>
-                <br>
-                <button type="submit">Save</button><br>
-            </div>
-        </form>
-    </div>
+            <label><b>New Email</b></label>
+            <input type="text" placeholder="Enter new email" name="cmail" required>
 
+            <label><b>Enter password</b></label>
+            <input type="password" placeholder="New email password" name="psw" required>
+            <br>
+            <button type="submit">Save</button><br>
+        </div>
+    </form>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -42,7 +59,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
