@@ -17,7 +17,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Home</a>
+        <a class="navbar-brand" href="HomePage.html">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,11 +32,13 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="HomePage.html"><i class="fa fa-home"></i>&emsp;Home</a>
                     <hr>
-                    <a class="dropdown-item" href="BankAccount.html"><i class="fa fa-university"></i>&emsp;BankAccount</a>
+                    <a class="dropdown-item" href="BankAccount.html"><i
+                            class="fa fa-university"></i>&emsp;BankAccount</a>
                     <hr>
                     <a class="dropdown-item" href="QrCode.html"><i class="fa fa-qrcode"></i>&emsp;QrCode</a>
                     <hr>
-                    <a class="dropdown-item" href="MyTransaction.html"><i class="fa fa-exchange"></i>&emsp;Transaction</a>
+                    <a class="dropdown-item" href="MyTransaction.html"><i
+                            class="fa fa-exchange"></i>&emsp;Transaction</a>
                     <hr>
                     <a class="dropdown-item" href="ChangePin.html"><i class="fa fa-user"></i>&emsp;Profile</a>
                     <hr>
@@ -79,6 +81,22 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <h4>Coming soon</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <h5 class="ml-1">More...</h5>
     <br>
     <div class="row">
@@ -106,7 +124,7 @@
                 <div class="card-body">
                     <h4 class="text-center">Good Deeds</h4>
                     <div class="d-flex justify-content-between align-items-center">
-                        <a href="deeds.html" class="btn btn-sm btn-outline-secondary" role="button"
+                        <a href="GoodDeeds.html" class="btn btn-sm btn-outline-secondary" role="button"
                             aria-pressed="true">View</a>
                     </div>
                 </div>
@@ -121,8 +139,9 @@
                     <h4 class="text-center">Parking</h4>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <a href="common.html" class="btn btn-sm btn-outline-secondary" role="button"
-                                aria-pressed="true">View</a>
+                            <!-- Trigger the modal with a button -->
+                            <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                                data-target="#myModal">View</button>
                         </div>
                     </div>
                 </div>
@@ -137,8 +156,8 @@
                     <h4 class="text-center">Gasoline</h4>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <a href="common.html" class="btn btn-sm btn-outline-secondary" role="button"
-                                aria-pressed="true">View</a>
+                            <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                                data-target="#myModal">View</button>
                         </div>
                     </div>
                 </div>
@@ -153,8 +172,8 @@
                     <h4 class="text-center">Movies</h4>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <a href="common.html" class="btn btn-sm btn-outline-secondary" role="button"
-                                aria-pressed="true">View</a>
+                            <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                                data-target="#myModal">View</button>
                         </div>
                     </div>
                 </div>
@@ -169,8 +188,8 @@
                     <h4 class="text-center">Transport</h4>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <a href="common.html" class="btn btn-sm btn-outline-secondary" role="button"
-                                aria-pressed="true">View</a>
+                            <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                                data-target="#myModal">View</button>
                         </div>
                     </div>
                 </div>
@@ -186,8 +205,8 @@
                     <h4 class="text-center">Lottery</h4>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <a href="common.html" class="btn btn-sm btn-outline-secondary" role="button"
-                                aria-pressed="true">View</a>
+                            <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                                data-target="#myModal">View</button>
                         </div>
                     </div>
                 </div>
